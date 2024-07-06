@@ -2,9 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import xlrd
 
-file_path_1 = '/Users/shivamkumar/Downloads/2016-Ethical-Hacking-with-Sources-and-Count_data.xlsx'
-file_path_2 = '/Users/shivamkumar/Downloads/ethical_hacking 2/data/ethical_hackers.csv'
-file_path_3 = '/Users/shivamkumar/Downloads/ethical_hacking 2/data/IIB Data Breaches - LATEST.xlsx'
+file_path_1 = 'file_path/2016-Ethical-Hacking-with-Sources-and-Count_data.xlsx'
+file_path_2 = 'file_path/ethical_hackers.csv'
+file_path_3 = 'file_path/IIB Data Breaches - LATEST.xlsx'
 
 
 ethical_hacking_df = pd.read_excel(file_path_1, sheet_name='Worksheet')
